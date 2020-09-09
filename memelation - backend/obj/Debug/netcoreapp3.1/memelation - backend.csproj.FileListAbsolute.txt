@@ -1,0 +1,41 @@
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.csprojAssemblyReference.cache
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\staticwebassets\memelation - backend.StaticWebAssets.Manifest.cache
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\staticwebassets\memelation - backend.StaticWebAssets.xml
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.AssemblyInfoInputs.cache
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.AssemblyInfo.cs
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.pdb
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\memelation - backend.exe
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\memelation - backend.deps.json
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\memelation - backend.runtimeconfig.json
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\memelation - backend.runtimeconfig.dev.json
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\memelation - backend.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\memelation - backend.pdb
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.RazorTargetAssemblyInfo.cache
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\obj\Debug\netcoreapp3.1\memelation - backend.csproj.CopyComplete
+C:\Users\bruni\OneDrive\Documentos\info a\memelation\memelation - backend\bin\Debug\netcoreapp3.1\Storage\Fotos\user.png
