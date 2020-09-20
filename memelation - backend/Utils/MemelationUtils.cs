@@ -57,5 +57,31 @@ namespace memelation___backend.Utils
 
             return ctx;
         }
+
+        public Models.Response.ComentarioResponse TbComentparaResComent (Models.TbComentario reg)
+        {
+            Models.Response.ComentarioResponse ctx = new Models.Response.ComentarioResponse();
+            ctx.idcomentario = reg.IdComentario;
+            ctx.idmeme = reg.IdMeme;
+            ctx.comentario = reg.DsComentario;
+
+            return ctx;
+        }
+        public Models.TbComentario ReqComentparaTbComent(Models.Request.ComentarioRequest reg)
+        {
+            Models.TbComentario ctx = new Models.TbComentario();
+            ctx.IdMeme = reg.idmeme;
+            ctx.DsComentario = reg.comentario;
+
+            return ctx;
+        }
+        public Models.Response.ComentarioResponse ReqComentparaResComent(Models.Request.ComentarioRequest reg)
+        {
+            Models.Response.ComentarioResponse ctx = new Models.Response.ComentarioResponse();
+            ctx.idmeme = reg.idmeme;
+            ctx.comentario = reg.comentario;
+
+            return ctx;
+        }
     }
 }

@@ -51,5 +51,32 @@ namespace memelation___backend.Controllers.Controllers
             string xx = gerenciarfoto.GerarContnttype(nome);
             return File(foto,xx);
         }
+
+        [HttpGet("comentario")]
+        public List<Models.TbComentario> buscarcomentarios()
+        {
+            List<Models.TbMemelation> ctx = db.TbMemelation.ToList();
+            List<Models.TbComentario> ctx2 = db.TbComentario.ToList();
+            Models.TbMemelation lista2 = new Models.TbMemelation();
+            List<Models.TbComentario> lista = new List<Models.TbComentario>();
+            int id = 0;
+
+            foreach(Models.TbComentario item in ctx2)
+            {
+                id = item.IdMeme;
+            }
+            foreach(Models.TbMemelation item in ctx)
+            {
+                if(item.IdMemelation == id)
+                    lista2 = item;
+            }
+            foreach(Models.TbComentario item in ctx2)
+            {
+                if(item.IdMeme == lista2.IdMemelation)
+                    lista.Add(item);
+            }
+            return lista;
+        }
+
     }
 }

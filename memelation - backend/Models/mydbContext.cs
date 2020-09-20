@@ -15,6 +15,7 @@ namespace memelation___backend.Models
         {
         }
 
+        public virtual DbSet<TbComentario> TbComentario { get; set; }
         public virtual DbSet<TbListaFofa> TbListaFofa { get; set; }
         public virtual DbSet<TbListaNegra> TbListaNegra { get; set; }
         public virtual DbSet<TbLogin> TbLogin { get; set; }
@@ -24,12 +25,38 @@ namespace memelation___backend.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("host=localhost;user=root;password=12345;database=mydb", x => x.ServerVersion("8.0.19-mysql"));
+              optionsBuilder.UseMySql("host=localhost;user=root;password=12345;database=mydb", x => x.ServerVersion("8.0.19-mysql"));
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<TbComentario>(entity =>
+            {
+                entity.HasKey(e => e.IdComentario)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("tb_comentario");
+
+                entity.HasIndex(e => e.IdMeme)
+                    .HasName("id_meme");
+
+                entity.Property(e => e.IdComentario).HasColumnName("id_comentario");
+
+                entity.Property(e => e.DsComentario)
+                    .HasColumnName("ds_comentario")
+                    .HasColumnType("varchar(100)")
+                    .HasCharSet("utf8mb4")
+                    .HasCollation("utf8mb4_0900_ai_ci");
+
+                entity.Property(e => e.IdMeme).HasColumnName("id_meme");
+
+                entity.HasOne(d => d.IdMemeNavigation)
+                    .WithMany(p => p.TbComentario)
+                    .HasForeignKey(d => d.IdMeme)
+                    .HasConstraintName("tb_comentario_ibfk_1");
+            });
+
             modelBuilder.Entity<TbListaFofa>(entity =>
             {
                 entity.HasKey(e => e.IdListaFofa)
@@ -125,7 +152,7 @@ namespace memelation___backend.Models
                     .HasColumnType("datetime");
             });
 
-             modelBuilder.Entity<TbMemelation>(entity =>
+            modelBuilder.Entity<TbMemelation>(entity =>
             {
                 entity.HasKey(e => e.IdMemelation)
                     .HasName("PRIMARY");
